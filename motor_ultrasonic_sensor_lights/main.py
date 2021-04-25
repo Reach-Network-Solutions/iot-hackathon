@@ -2,7 +2,7 @@ import RPi.GPIO as GPIO
 import time
 
 import light as LIGHTS
-import proximity_sensor as PROXIMITY
+import ultrasonic as PROXIMITY
 import relay_motor as RELAY
 
 SLEEP_TIME = 0.005
